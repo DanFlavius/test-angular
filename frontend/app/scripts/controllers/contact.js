@@ -16,7 +16,6 @@
 
 
     $http.get(API_url + 'contact').success(function (res) {
-      debugger;
       vm.contacts = res.user;
     }).error(function (res) {
       alert('warning', 'Unable to get jobs! ', res.message)
