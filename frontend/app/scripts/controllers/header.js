@@ -16,7 +16,6 @@
 
   function HeaderCtrl($auth) {
     var vm = this;
-    
     vm.isAuthenticated = $auth.isAuthenticated;
   }
 })();

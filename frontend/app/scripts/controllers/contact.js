@@ -20,5 +20,6 @@
     }).error(function (res) {
       alert('warning', 'Unable to get jobs! ', res.message)
     });
+
   }
 })();
